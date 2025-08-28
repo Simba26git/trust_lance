@@ -507,19 +507,10 @@ copies of the Software...
 
 ## 📞 Support & Contact
 
-### Community Support
-- 💬 [Discord Community](https://discord.gg/trustlens)
-- 📋 [GitHub Discussions](https://github.com/trustlens/trustlens/discussions)
-- 📚 [Documentation](https://docs.trustlens.com)
-
 ### Enterprise Support
-- 📧 **Email**: enterprise@trustlens.com
-- 📞 **Phone**: +1 (555) 123-4567
-- 💼 **Sales**: sales@trustlens.com
-- 🚨 **Security**: security@trustlens.com
-
-### Business Hours
-- **Support**: 24/7 for Enterprise customers
+- 📧 **Email**: simbarashegunundu0778@gmail.com
+- 📞 **Phone**: +263 77 814 2466
+- 
 - **Sales**: Monday-Friday, 9 AM - 6 PM PST
 - **Emergency**: Critical issues handled within 2 hours
 
@@ -564,10 +555,6 @@ Special thanks to:
 ---
 
 <div align="center">
-
-**Ready to get started?**
-
-[🚀 **Get Started**](https://trustlens.com/get-started) • [📞 **Contact Sales**](https://trustlens.com/contact) • [📚 **View Docs**](https://docs.trustlens.com)
 
 ---
 
