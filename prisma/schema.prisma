@@ -1,0 +1,68 @@
+﻿generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id              String    @id @default(cuid())
+  email           String    @unique
+  passwordHash    String?   @map("password_hash")
+  role            String    @default("USER")
+  firstName       String?   @map("first_name")
+  lastName        String?   @map("last_name")
+  phone           String?
+  company         String?
+  bio             String?
+  avatar          String?
+  isActive        Boolean   @default(true) @map("is_active")
+  isEmailVerified Boolean   @default(false) @map("is_email_verified")
+  plan            String    @default("free")
+  usageLimit      Int       @default(10) @map("usage_limit")
+  usageCount      Int       @default(0) @map("usage_count")
+  lastLogin       DateTime? @map("last_login")
+  createdAt       DateTime  @default(now()) @map("created_at")
+  updatedAt       DateTime  @updatedAt @map("updated_at")
+
+  uploads         Upload[]
+  analysisResults AnalysisResult[]
+
+  @@map("users")
+}
+
+model Upload {
+  id              String    @id @default(cuid())
+  userId          String    @map("user_id")
+  filename        String
+  originalName    String    @map("original_name")
+  mimeType        String    @map("mime_type")
+  size            Int
+  status          String    @default("PENDING")
+  createdAt       DateTime  @default(now()) @map("created_at")
+
+  user            User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  analysisResults AnalysisResult[]
+
+  @@map("uploads")
+}
+
+model AnalysisResult {
+  id                    String    @id @default(cuid())
+  uploadId              String    @map("upload_id")
+  userId                String    @map("user_id")
+  isDeepfake            Boolean   @default(false) @map("is_deepfake")
+  deepfakeConfidence    Float     @default(0.0) @map("deepfake_confidence")
+  verdict               String    @default("SAFE")
+  riskScore             Float     @default(0.0) @map("risk_score")
+  processedAt           DateTime  @map("processed_at")
+  completedAt           DateTime  @map("completed_at")
+  createdAt             DateTime  @default(now()) @map("created_at")
+
+  upload                Upload    @relation(fields: [uploadId], references: [id], onDelete: Cascade)
+  user                  User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@map("analysis_results")
+}
