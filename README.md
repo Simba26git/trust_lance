@@ -937,13 +937,6 @@ Start your free trial today!
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🆘 Support
-
-- **Documentation**: https://docs.trustlens.com
-- **Support Email**: support@trustlens.com
-- **Slack Community**: https://trustlens.slack.com
-- **GitHub Issues**: https://github.com/your-org/trustlens-mvp/issues
-
 ---
 
-Built with ❤️ by the TrustLens Team
+Built with ❤️ by Simbarashe Gunundu
