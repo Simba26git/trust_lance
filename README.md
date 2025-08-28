@@ -1,55 +1,55 @@
 # TrustLens - AI-Powered Content Verification Platform
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/trustlens/trustlens/main/assets/logo.png" alt="TrustLens Logo" width="120" height="120">
+  <img src="https://raw.githubusercontent.com/Simba26git/trust_lance/main/assets/logo.png" alt="TrustLens Logo" width="120" height="120">
   
-  **The Foundation for your Content Verification**
+  **Personal Project: AI-Powered Content Verification**
   
-  *Beautifully designed AI-powered tools to verify content authenticity. Detect deepfakes, validate provenance, and ensure media integrity with enterprise-grade security.*
+  *A learning project exploring AI-powered tools to verify content authenticity. Detect deepfakes, validate provenance, and ensure media integrity.*
 
   [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
-  [![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/trustlens/trustlens)
-  [![Build Status](https://img.shields.io/github/actions/workflow/status/trustlens/trustlens/ci.yml)](https://github.com/trustlens/trustlens/actions)
-  [![Security Rating](https://img.shields.io/badge/security-A+-brightgreen.svg)](https://github.com/trustlens/trustlens/security)
+  [![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/Simba26git/trust_lance)
+  [![Personal Project](https://img.shields.io/badge/project-personal-orange.svg)](https://github.com/Simba26git/trust_lance)
 
-  [Get Started](#quick-start) • [Documentation](./docs) • [API Reference](./docs/api.md) • [Live Demo](https://demo.trustlens.com)
+  [Get Started](#quick-start) • [Documentation](./docs) • [Live Demo](http://localhost:5173)
 </div>
 
 ---
 
 ## 🚀 What is TrustLens?
 
-TrustLens is an **AI-powered authenticity & product-content verification platform** for e-commerce, marketplaces, advertisers, and brands. It scans product listings, UGC (user content/influencer posts), ad creatives, and seller uploads to produce a verifiable authenticity score + provenance report.
+TrustLens is a **personal learning project** exploring AI-powered authenticity & product-content verification for e-commerce platforms. It demonstrates how to build a system that scans product listings, user content, and uploads to produce verifiable authenticity scores and provenance reports.
 
-### 🎯 **Core Features**
+### 🎯 **Features Implemented**
 
-- **🔍 Image & Video Authenticity Scan** - Multi-check pipeline with metadata (EXIF/C2PA), perceptual hashing (pHash), deepfake detection, and tamper detection
+- **🔍 Image & Video Authenticity Scan** - Multi-check pipeline with metadata (EXIF/C2PA), perceptual hashing (pHash), deepfake detection
 - **🔄 Product-Image Matching** - Reverse-image search and catalog-match scoring to detect mismatched/stolen images
-- **✅ Seller Quick-KYC** - Basic identity checks with email/phone verification and web footprint scoring
-- **📊 Authenticity Score + PDF Report** - Clear scoring with evidence bundle for audits
-- **🛒 Shopify App & Webhooks** - Automatic scanning of product images with UI indicators (green/yellow/red)
-- **🌐 Browser Extension & Trust Badge** - Buyer-facing verification for increased merchant conversions
-- **⚖️ Human Review Queue** - Admin dashboard for flagged items with audit logs and appeals
+- **✅ Basic Identity Checks** - Email/phone verification and web footprint scoring concepts
+- **📊 Authenticity Score + PDF Report** - Clear scoring with evidence bundle
+- **🛒 Shopify App Prototype** - Demonstration of automatic scanning with UI indicators
+- **🌐 Browser Extension Demo** - Trust badge proof-of-concept for buyers
+- **⚖️ Human Review Queue** - Admin dashboard for flagged items with audit logs
 
 ---
 
-## 🏆 Why TrustLens Now?
+## 🏆 Why This Project?
 
-### 📈 **Market Evidence**
+### 📈 **Learning Goals**
 
-- **Regulatory Pressure**: FTC and global regulators are cracking down on fake reviews and synthetic endorsements
-- **Growing Market**: Deepfake/fake-image detection market showing large CAGR with rising enterprise budgets
-- **Industry Support**: Major players (OpenAI, Google, Adobe) pushing C2PA/Content Credentials into mainstream
-- **Massive Distribution**: Shopify/WooCommerce ecosystems provide viral adoption potential
+- **AI Integration**: Understanding how to integrate multiple AI services (deepfake detection, content analysis)
+- **E-commerce APIs**: Working with Shopify/WooCommerce webhooks and app development
+- **Microservices**: Building scalable backend services with queues and workers
+- **Modern Frontend**: React + TypeScript with professional UI components
+- **DevOps**: Docker, Kubernetes, CI/CD pipelines
 
-### 🎯 **Unique Positioning**
+### 🎯 **Technical Exploration**
 
-Unlike single-problem solutions, TrustLens bundles:
-- ✅ Multi-modal authenticity checks
-- ✅ Provenance verification (C2PA + fallback detection)
-- ✅ Product-claim consistency matching
-- ✅ Seller identity verification
-- ✅ Buyer-facing trust badges with conversion lift
+This project explores:
+- ✅ Multi-modal content verification techniques
+- ✅ C2PA provenance standards implementation
+- ✅ Product consistency matching algorithms
+- ✅ Browser extension development
+- ✅ Real-time webhook processing
 
 ---
 
